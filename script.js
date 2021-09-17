@@ -30,10 +30,10 @@ function insert(num)
 
 if(localStorage.getItem('token') == null){
   alert('Você precisa estar logado para acessar essa página')
-  window.location.href = 'https://cdpn.io/zeibarg1/debug/MWoOZOg/wQMPoGdYNdek'
+  window.location.href = 'https://zeibarg.github.io/calculadoralogada'
 }
 
 function sair(){
   localStorage.removeItem('token')
-  window.location.href = 'https://cdpn.io/zeibarg1/debug/MWoOZOg/wQMPoGdYNdek'
+  window.location.href = 'https://zeibarg.github.io/calculadoralogada'
 }
